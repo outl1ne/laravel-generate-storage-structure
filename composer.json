@@ -1,0 +1,33 @@
+{
+    "name": "optimistdigital/laravel-generate-storage-structure",
+    "description": "This package generates the Laravel storage folder structure. Useful when mounting an empty directory to replace `storage/` in production or staging environments.",
+    "keywords": [
+      "laravel",
+      "storage",
+      "optimistdigital"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allan Tatter",
+            "email": "allan@optimistdigital.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/console": "^5.0",
+        "symfony/filesystem": "^5.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "OptimistDigital\\GenerateStorageStructure\\": "src/"
+      }
+    },
+    "bin": [
+        "bin/generate-storage-structure"
+    ],
+    "config": {
+      "sort-packages": true
+    },
+    "prefer-stable": true
+}
