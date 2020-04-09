@@ -1,5 +1,7 @@
 # Laravel Generate Storage Structure
 
+![tests](https://github.com/optimistdigital/laravel-generate-storage-structure/workflows/tests/badge.svg)
+
 This package generates the Laravel storage folder structure. Useful when mounting an empty directory to replace `storage/` in production or staging environments.
 
 When running a Laravel application with an empty storage directory, you should get an error related with reading/storing files to/from `storage` directory like `ErrorException
