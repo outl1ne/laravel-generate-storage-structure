@@ -4,9 +4,9 @@
 require __DIR__.'/../vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
-use OptimistDigital\GenerateStorageStructure\Commands\GenerateStorageStructureCommand;
+use OptimistDigital\GenerateStorageStructure\GenerateStorageStructureCommand;
 
-$application = new Application();
+$application = new Application;
 
 $command = new GenerateStorageStructureCommand;
 

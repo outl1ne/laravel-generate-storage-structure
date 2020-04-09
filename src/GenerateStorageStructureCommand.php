@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\GenerateStorageStructure\Commands;
+namespace OptimistDigital\GenerateStorageStructure;
 
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Console\Command\Command;
@@ -25,8 +25,6 @@ class GenerateStorageStructureCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $filesystem = new Filesystem;
-
         $rootDirectory = $input->getOption('storage-path');
         if ($rootDirectory !== null) {
             $rootDirectory = rtrim($rootDirectory, '/');
@@ -48,11 +46,11 @@ class GenerateStorageStructureCommand extends Command
                 $directory = $rootDirectory.'/'.$directory;
             }
 
-            if ($filesystem->exists($directory)) {
+            if ((new Filesystem)->exists($directory)) {
                 continue;
             }
 
-            $filesystem->mkdir($directory);
+            (new Filesystem)->mkdir($directory);
         }
 
         $output->writeln('Storage structure generated.');
