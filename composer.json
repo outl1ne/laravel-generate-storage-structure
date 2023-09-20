@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0|^8.1",
+        "php": "^7.3|^8.0|^8.1|^8.2",
         "symfony/console": "^5.0",
         "symfony/filesystem": "^5.0"
     },
