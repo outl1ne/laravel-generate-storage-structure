@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\GenerateStorageStructure;
+namespace Outl1ne\GenerateStorageStructure;
 
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Console\Command\Command;

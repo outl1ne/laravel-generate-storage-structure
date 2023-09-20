@@ -1,6 +1,6 @@
 # Laravel Generate Storage Structure
 
-![tests](https://github.com/optimistdigital/laravel-generate-storage-structure/workflows/tests/badge.svg)
+![tests](https://github.com/outl1ne/laravel-generate-storage-structure/workflows/tests/badge.svg)
 
 This package generates the Laravel storage folder structure. Useful when mounting an empty directory to replace `storage/` in production or staging environments.
 
@@ -10,7 +10,7 @@ file_put_contents(/../storage/..): failed to open stream: No such file or direct
 ## Usage
 
 ```
-composer require optimistdigital/laravel-generate-storage-structure
+composer require outl1ne/laravel-generate-storage-structure
 ```
 
 Create `app/`, `framework/` and `logs/` directories into the current directory:

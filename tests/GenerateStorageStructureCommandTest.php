@@ -1,12 +1,12 @@
 <?php
 
-namespace OptimistDigital\GenerateStorageStructure\Tests;
+namespace Outl1ne\GenerateStorageStructure\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Console\Tester\CommandTester;
-use OptimistDigital\GenerateStorageStructure\GenerateStorageStructureCommand;
+use Outl1ne\GenerateStorageStructure\GenerateStorageStructureCommand;
 
 class GenerateStorageStructureCommandTest extends TestCase
 {

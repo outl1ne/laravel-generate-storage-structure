@@ -1,41 +1,41 @@
 {
-    "name": "optimistdigital/laravel-generate-storage-structure",
-    "description": "This package generates the Laravel storage folder structure. Useful when mounting an empty directory to replace `storage/` in production or staging environments.",
-    "keywords": [
-        "laravel",
-        "storage",
-        "optimistdigital"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Allan Tatter",
-            "email": "allan@optimistdigital.com"
-        }
-    ],
-    "require": {
-        "php": "^7.3|^8.0|^8.1|^8.2",
-        "symfony/console": "^5.0",
-        "symfony/filesystem": "^5.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "OptimistDigital\\GenerateStorageStructure\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "OptimistDigital\\GenerateStorageStructure\\Tests\\": "tests/"
-        }
-    },
-    "bin": [
-        "bin/generate-storage-structure"
-    ],
-    "config": {
-        "sort-packages": true
-    },
-    "prefer-stable": true
+  "name": "outl1ne/laravel-generate-storage-structure",
+  "description": "This package generates the Laravel storage folder structure. Useful when mounting an empty directory to replace `storage/` in production or staging environments.",
+  "keywords": [
+    "laravel",
+    "storage",
+    "outl1ne"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Allan Tatter",
+      "email": "allan@outl1ne.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0|^8.1|^8.2",
+    "symfony/console": "^5.0",
+    "symfony/filesystem": "^5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Outl1ne\\GenerateStorageStructure\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Outl1ne\\GenerateStorageStructure\\Tests\\": "tests/"
+    }
+  },
+  "bin": [
+    "bin/generate-storage-structure"
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "prefer-stable": true
 }
